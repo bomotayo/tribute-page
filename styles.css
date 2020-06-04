@@ -1,0 +1,67 @@
+#main{
+  background-color: rgb(37, 35, 35);
+  position: relative;
+  top: 10px;
+  color: gold;
+}
+#title{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#title h4{
+  margin-top: 0px;
+}
+#img-div{
+  background-color: rgb(116, 110, 110);
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+#img-caption{
+  text-align: center;
+}
+#tribute-list,#tribute-text{
+  width: 40%;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+h3{
+  text-align: center;
+  font-size: 23px;
+}
+
+li{
+  margin: 15px 0;
+}
+
+#tribute-end{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 30px;
+
+}
+
+#tribute-link:hover{
+  color: gold;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #tribute-list, #tribute-text{
+    width: 80%;
+  }
+}
+
